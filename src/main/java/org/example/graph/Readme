@@ -1,0 +1,22 @@
+Graph Representation
+1. Adjacency list
+2. Adjacency matrix
+3. edge list
+
+Shortest path in a graph
+1. Use BFS (Breadth-First Search) for unweighted graphs, where shortest path is the one with the least number of edges.
+2. Use Topological Sort + DFS (Depth-First Search) for directed acyclic graphs (DAGs).
+3. Use Dijkstra's algorithm for weighted graphs with non-negative weights.
+4. Use Bellman-Ford algorithm for graphs with negative weights.
+
+Minimum spanning tree in a graph
+1. Prim's algorithm - greedy algorithm that starts with a single node and iteratively adds the closest unvisited node.
+2. Kruskal's algorithm - greedy algorithm that finds the minimum spanning tree by iteratively adding edges in increasing order of weight.
+
+topological Sorting
+1. DFS based
+2. Kahn's BFS based
+
+Strongly Connected Components
+1. Kosaraju Algorithm
+2. Tarjan's Algorithm
