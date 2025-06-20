@@ -1,4 +1,4 @@
-package org.example.dynamicProgramming;
+package org.example.dynamicProgramming.longestIncreasingSubsequenceProblem;
 
 public class LongestIncreasingSubsequence {
 

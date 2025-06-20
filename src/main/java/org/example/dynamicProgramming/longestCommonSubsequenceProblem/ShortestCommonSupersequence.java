@@ -1,4 +1,4 @@
-package org.example.dynamicProgramming;
+package org.example.dynamicProgramming.longestCommonSubsequenceProblem;
 
 public class ShortestCommonSupersequence {
     //shortest common supersequence problem using memoization(bottom up approach)
