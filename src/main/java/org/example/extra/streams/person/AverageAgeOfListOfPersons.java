@@ -1,4 +1,4 @@
-package org.example.extra.streams;
+package org.example.extra.streams.person;
 
 import java.util.ArrayList;
 import java.util.List;
