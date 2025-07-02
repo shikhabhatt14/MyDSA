@@ -17,6 +17,10 @@ public class AverageAgeOfListOfPersons {
         double averageAge = persons.stream().mapToInt(Person::getAge).average()
                 .orElse(0); // Default to 0 if the list is empty
         System.out.println("Average age of persons: " + averageAge);
+
+        double avgAge = persons.stream().mapToInt(person -> person.getAge()).average()
+                .orElse(0); // Default to 0 if the list is empty
+        System.out.println("Average age of persons using lambda: " + avgAge);
     }
 
 }
